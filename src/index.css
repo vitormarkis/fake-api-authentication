@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25%;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 4rem;
+}
+
+#root {
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+button {
+  border: none;
+}
+
+button,
+input {
+  outline: none;
+  padding: 16px 12px;
+  border-radius: 12px;
+  border: 1px solid #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.form-button {
+  background-color: #199;
+  color: white;
+  cursor: pointer;
+}
